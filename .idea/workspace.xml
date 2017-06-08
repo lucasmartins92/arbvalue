@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="">
+    <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="Adicionado pasta &quot;static&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/null.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +24,6 @@
             <state relative-caret-position="153">
               <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arbvalue/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="null.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/null.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -124,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/arbvalue/settings.py" />
         <option value="$PROJECT_DIR$/arbvalue/wsgi.py" />
+        <option value="$PROJECT_DIR$/static/null.py" />
       </list>
     </option>
   </component>
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496946703979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adicionado pasta &quot;static&quot;">
+      <created>1496946780717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496946780717</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -454,8 +461,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29449838" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29449838" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.50323623" order="0" side_tool="true" content_ui="tabs" />
@@ -511,16 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/music/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/music/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -911,6 +909,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/null.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
