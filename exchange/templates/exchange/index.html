@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange</title>
+</head>
+<body>
+
+<h3>List of All Exchanges:</h3>
+{% if all_exchanges %}
+
+    <ul>
+        {% for exchange in all_exchanges %}
+        <li><a href="{% url 'exchange:detail' exchange.id %}">{{ exchange.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+{% else %}
+    <h3>Exchanges doesn't found</h3>
+{% endif %}
+
+</body>
+</html>

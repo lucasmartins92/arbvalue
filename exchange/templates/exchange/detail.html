@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange Detail</title>
+</head>
+<body>
+<div>
+    <img src="{{exchange.logo}}" height="32" width="32">
+    <table class="Exchange Detail">
+        <tr>
+            <th><a>EXCHANGE: </a></th>
+            <th><a>{{exchange.name}}</a></th>
+        </tr>
+        <tbody>
+            <td><a>COUNTRY: </a></td>
+            <td><a>{{exchange.country}}</a></td>
+        </tbody>
+    </table>
+</div>
+<div>
+<h3>Negociable Currencies:</h3>
+<ul>
+    {% for exchange_currency in exchange.exchange_currency_set.all %}
+    <li>{{exchange_currency.currency}}</li>
+    {% endfor %}
+</ul>
+</div>
+<div>
+<h3>Negociable Pairs:</h3>
+<ul>
+    {% for exchange_pair in exchange.exchange_pair_set.all %}
+    <li>{{exchange_pair.base}}/{{exchange_pair.quote}}</li>
+    {% endfor %}
+</ul>
+</div>
+
+
+</body>
+</html>
