@@ -161,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="363" />
-    <option name="y" value="83" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
@@ -437,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496946535666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicionado pasta &quot;static&quot;">
+      <created>1496946703979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496946703979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -446,7 +453,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="83" width="1296" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29449838" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -494,7 +501,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test changes to git hub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test changes to git hub" />
+    <MESSAGE value="Adicionado pasta &quot;static&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado pasta &quot;static&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
