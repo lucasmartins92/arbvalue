@@ -2,7 +2,7 @@
 import os
 import sys
 
-#testgithub
+#testgithu
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "arbvalue.settings")
