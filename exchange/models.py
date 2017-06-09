@@ -1,5 +1,4 @@
 from django.db import models
-import django
 
 # Create your models here.
 class Exchange(models.Model):

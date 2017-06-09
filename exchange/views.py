@@ -6,5 +6,7 @@ def index(request):
     return render(request, 'exchange/index.html', {'all_exchanges': all_exchanges})
 
 def detail(request, exchange_id):
-    exchange = get_object_or_404(Exchange, exchange_id)
+    print(request)
+    print(exchange_id)
+    exchange = get_object_or_404(Exchange, pk=exchange_id)
     return render(request, 'exchange/detail.html', {'exchange': exchange})
