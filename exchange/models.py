@@ -10,7 +10,6 @@ class Exchange(models.Model):
     def __str__(self):
         return "(" + self.code + ")" + self.name
 
-
 class Currency(models.Model):
     name = models.CharField(max_length=50)
     code = models.CharField(max_length=3)
@@ -41,3 +40,13 @@ class Exchange_Pair(models.Model):
 
     def __str__(self):
         return str(self.exchange) + ": " + str(self.base) + "/" + str(self.quote)
+
+class Order_Book(models.Model):
+    exchange_pair = models.ForeignKey(Exchange_Pair, on_delete=models.CASCADE)
+    unix = models.DecimalField(max_digits=30, decimal_places=10)
+    type = models.CharField(max_length=3)
+    volume = models.DecimalField(max_digits=30, decimal_places=10)
+    price = models.DecimalField(max_digits=30, decimal_places=10)
+
+    def __str__(self):
+        return str(self.exchange_pair) + ": " + str(self.price) + ". " + str(self.volume)
