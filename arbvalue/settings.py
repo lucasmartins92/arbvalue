@@ -31,13 +31,15 @@ ALLOWED_HOSTS = ['arbvalue.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'exchange.apps.ExchangeConfig',
+    #'exchange.apps.ExchangeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djcelery',
+    'exchange',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -147,3 +149,19 @@ DATABASES['default'].update(db_from_env)
 # https://warehouse.python.org/project/whitenoise/
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+#Schedule Tasks with Celery
+
+import djcelery
+djcelery.setup_loader()
+
+BROKER_URL = os.environ.get("REDISCLOUD_URL", "django://")
+BROKER_POOL_LIMIT = 1
+BROKER_CONNECTION_MAX_RETRIES = None
+
+CELERY_TASK_SERIALIZER = "json"
+CELERY_ACCEPT_CONTENT = ["json", "msgpack"]
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
+if BROKER_URL == "django://":
+    INSTALLED_APPS += ("kombu.transport.django",)
