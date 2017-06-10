@@ -17,9 +17,10 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "arbvalue.settings")
 application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
 
-from exchange.models import Exchange_Currency, Exchange_Pair, Exchange, Currency
+from exchange.models import Exchange_Currency, Exchange_Pair, Exchange, Currency, Order_Book
 
 exchange = Exchange.objects.all()
 Currency = Currency.objects.all()
 exchange_currency = Exchange_Currency.objects.all()
 exchange_pair = Exchange_Pair.objects.all()
+order_book = Order_Book.objects.all()
