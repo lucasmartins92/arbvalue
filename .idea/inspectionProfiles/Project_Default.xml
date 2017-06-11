@@ -101,7 +101,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="31">
+          <list size="33">
             <item index="0" class="java.lang.String" itemvalue="scikit-image" />
             <item index="1" class="java.lang.String" itemvalue="Bottleneck" />
             <item index="2" class="java.lang.String" itemvalue="numba" />
@@ -133,6 +133,8 @@
             <item index="28" class="java.lang.String" itemvalue="numexpr" />
             <item index="29" class="java.lang.String" itemvalue="django-windows-tools" />
             <item index="30" class="java.lang.String" itemvalue="pytz" />
+            <item index="31" class="java.lang.String" itemvalue="cffi" />
+            <item index="32" class="java.lang.String" itemvalue="rabbitmq" />
           </list>
         </value>
       </option>
