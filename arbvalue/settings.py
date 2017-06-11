@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@_q8nxh#vo*bwhdqcm*$p0a&2@97flxed=x&nu4yld1ongspt)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['arbvalue.herokuapp.com']
 
@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['arbvalue.herokuapp.com']
 
 INSTALLED_APPS = [
     #'exchange.apps.ExchangeConfig',
+    #'django_windows_tools', #Para rodar celery beat no windows
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,6 +51,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
 ]
 
 ROOT_URLCONF = 'arbvalue.urls'
@@ -153,15 +155,29 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 #Schedule Tasks with Celery
 
 import djcelery
+from datetime import timedelta
 djcelery.setup_loader()
 
 BROKER_URL = os.environ.get("REDISCLOUD_URL", "django://")
+#BROKER_URL = 'redis://localhost:6379/0'
 BROKER_POOL_LIMIT = 1
 BROKER_CONNECTION_MAX_RETRIES = None
+#CELERY_RESULT_BACKEND = "django://localhost//"
+import djcelery
+djcelery.setup_loader()
 
 CELERY_TASK_SERIALIZER = "json"
 CELERY_ACCEPT_CONTENT = ["json", "msgpack"]
-CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+CELERY_IMPORTS = ('exchange.tasks', )
+#CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
+CELERYBEAT_SCHEDULE = {
+    'api-5sec': {
+        'task': 'exchange.tasks.api',
+        'schedule': timedelta(seconds=5),
+        'args': ()
+    },
+}
 
 if BROKER_URL == "django://":
     INSTALLED_APPS += ("kombu.transport.django",)
