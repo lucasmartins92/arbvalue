@@ -31,8 +31,6 @@ ALLOWED_HOSTS = ['arbvalue.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    #'exchange.apps.ExchangeConfig',
-    #'django_windows_tools', #Para rodar celery beat no windows
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
