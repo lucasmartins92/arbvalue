@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="Honcho configurado">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile.windows" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -632,7 +628,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497231455514</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Honcho configurado">
+      <created>1497232320726</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1497232320726</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,7 +700,8 @@
     <MESSAGE value="1) Tentativa de adicionar Celery para Tasks" />
     <MESSAGE value="Schedule Tasks to Heroku" />
     <MESSAGE value="Requiriments atualizado (retirado os não utilizados)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Requiriments atualizado (retirado os não utilizados)" />
+    <MESSAGE value="Honcho configurado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Honcho configurado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
