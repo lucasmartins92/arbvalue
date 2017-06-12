@@ -51,6 +51,7 @@ class Order_Book(models.Model):
     def __str__(self):
         return str(self.exchange_pair) + ": " + str(self.price) + ". " + str(self.volume)
 
+
 class Task_Historic(models.Model):
     task_name = models.CharField(max_length=100)
     unix = models.DecimalField(max_digits=30, decimal_places=10)
