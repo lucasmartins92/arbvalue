@@ -1,1 +1,2 @@
-web: gunicorn arbvalue.wsgi --log-file
+web: gunicorn arbvalue.wsgi --log-file -
+worker: python manage.py celery worker -B -l info
