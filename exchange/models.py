@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
+
+
 class Exchange(models.Model):
     code = models.CharField(max_length=3)
     name = models.CharField(max_length=50)
@@ -10,6 +12,7 @@ class Exchange(models.Model):
     def __str__(self):
         return "(" + self.code + ")" + self.name
 
+
 class Currency(models.Model):
     name = models.CharField(max_length=50)
     code = models.CharField(max_length=3)
@@ -17,6 +20,7 @@ class Currency(models.Model):
 
     def __str__(self):
         return "(" + self.code + ") " + self.name
+
 
 class Exchange_Currency(models.Model):
     exchange = models.ForeignKey(Exchange, on_delete=models.CASCADE)
@@ -29,6 +33,7 @@ class Exchange_Currency(models.Model):
     def __str__(self):
         return str(self.exchange) + " - " + str(self.currency)
 
+
 class Exchange_Pair(models.Model):
     base = models.ForeignKey(Currency, related_name="base_currency", on_delete=models.CASCADE)
     quote = models.ForeignKey(Currency, related_name="quote_currency", on_delete=models.CASCADE)
@@ -40,6 +45,7 @@ class Exchange_Pair(models.Model):
 
     def __str__(self):
         return str(self.exchange) + ": " + str(self.base) + "/" + str(self.quote)
+
 
 class Order_Book(models.Model):
     exchange_pair = models.ForeignKey(Exchange_Pair, on_delete=models.CASCADE)

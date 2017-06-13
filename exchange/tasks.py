@@ -43,9 +43,10 @@ def insert_orderbook_sqlite(unix):
 
 @shared_task
 def api():
+    print("Api_beginning")
     api = Task_Historic()
     api.task_name = "api"
     api.value = "valor de teste"
     api.unix = time.time()
     api.save()
-    print("Api")
+    print("Api_end")
