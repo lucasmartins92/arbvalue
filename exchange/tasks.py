@@ -2,7 +2,7 @@ from celery import shared_task
 import requests
 from urllib.request import urlopen, Request
 from json import load
-from .models import Task_Historic
+from .models import TaskHistory
 import time
 
 #celery = Celery('tasks', broker='redis://localhost:6379/0')
@@ -44,11 +44,8 @@ def insert_orderbook_sqlite(unix):
 @shared_task
 def api():
     print("Api_beginning")
-    """
-    api = Task_Historic()
-    api.task_name = "api"
-    api.value = "valor de teste"
+    api = TaskHistory()
+    api.name = "api"
     api.unix = time.time()
     api.save()
-    """
     print("Api_end")

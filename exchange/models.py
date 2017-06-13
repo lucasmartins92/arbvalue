@@ -56,3 +56,11 @@ class Order_Book(models.Model):
 
     def __str__(self):
         return str(self.exchange_pair) + ": " + str(self.price) + ". " + str(self.volume)
+
+
+class TaskHistory(models.Model):
+    name = models.CharField(max_length=50)
+    unix = models.DecimalField(max_digits=30, decimal_places=10)
+
+    def __str__(self):
+        return str(self.name) + ": " + str(self.unix)
