@@ -94,8 +94,8 @@ def insert_foxbit_db(exchange_pair, unix, orderbook):
             insert_bid = Order_Book(exchange_pair=exchange_pair,
                                     unix=unix,
                                     type='bid',
-                                    volume=bid[0],
-                                    price=bid[1])
+                                    volume=bid[1],
+                                    price=bid[0])
             insert_bid.save()
         else:
             break
@@ -106,8 +106,8 @@ def insert_foxbit_db(exchange_pair, unix, orderbook):
             insert_ask = Order_Book(exchange_pair=exchange_pair,
                                     unix=unix,
                                     type='ask',
-                                    volume=ask[0],
-                                    price=ask[1])
+                                    volume=ask[1],
+                                    price=ask[0])
             insert_ask.save()
         else:
             break
