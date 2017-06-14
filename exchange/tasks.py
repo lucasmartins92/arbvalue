@@ -37,8 +37,8 @@ def negociecoins_orderbook():
 
 @shared_task
 def insert_negociecoins_db(unix, orderbook):
-    bid = orderbook['buy']
-    ask = orderbook['sell']
+    bid = orderbook['bid']
+    ask = orderbook['ask']
     print(bid)
     print(ask)
 
