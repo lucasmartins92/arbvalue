@@ -171,7 +171,7 @@ CELERY_IMPORTS = ('exchange.tasks', )
 CELERYBEAT_SCHEDULE = {
     'api-5sec': {
         'task': 'exchange.tasks.api',
-        'schedule': timedelta(seconds=5),
+        'schedule': timedelta(seconds=30),
         'args': ()
     },
 }

@@ -25,27 +25,25 @@ def echo(data):
    return data
 
 @shared_task
-def api_orderbook():
+def negociecoins_orderbook():
     user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
     headers = {'User-Agent': user_agent, }
-    neg_order_book = "https://broker.negociecoins.com.br/api/v3/btcbrl/ticker"
+    neg_order_book = "https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook"
     req = Request(neg_order_book, headers=headers)
     response = urlopen(req)
-    data = load(response)
-    return data
+    orderbook = load(response)
+    unix = time.time()
+    insert_negociecoins_db(unix, orderbook)
 
 @shared_task
-def insert_orderbook_sqlite(unix):
-    order_book = api_orderbook()
-    bid = order_book['buy']
-    ask = order_book['sell']
-
+def insert_negociecoins_db(unix, orderbook):
+    bid = orderbook['buy']
+    ask = orderbook['sell']
+    print(bid)
+    print(ask)
 
 @shared_task
 def api():
     print("Api_beginning")
-    api = TaskHistory()
-    api.name = "api"
-    api.unix = time.time()
-    api.save()
+    negociecoins_orderbook.delay()
     print("Api_end")
