@@ -70,8 +70,8 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
 def foxbit_orderbook():
     user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
     headers = {'User-Agent': user_agent, }
-    orderbook = "https://api.blinktrade.com/api/v1/BRL/orderbook"
-    req = Request(orderbook, headers=headers)
+    fox_orderbook = "https://api.blinktrade.com/api/v1/BRL/orderbook"
+    req = Request(fox_orderbook, headers=headers)
     response = urlopen(req)
     if(response.getcode()==200):
         orderbook = load(response)
