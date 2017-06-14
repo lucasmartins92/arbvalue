@@ -43,7 +43,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
+            <state relative-caret-position="989">
               <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
               <folding>
                 <element signature="e#374#573#0" expanded="false" />
@@ -65,8 +65,8 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="278">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -720,7 +720,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497404191154</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Honcho configurado">
+      <created>1497404384612</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1497404384612</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,6 +746,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936978" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -746,7 +754,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.49676377" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32699168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42687276" sideWeight="0.4935275" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42687276" sideWeight="0.4935275" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32699168" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1036,16 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-          <folding>
-            <element signature="e#374#573#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1054,10 +1052,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exchange/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+          <folding>
+            <element signature="e#374#573#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exchange/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="278">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

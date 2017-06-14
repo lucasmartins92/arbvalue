@@ -1,28 +1,9 @@
 from celery import shared_task
-import requests
+from .models import Exchange_Pair, Order_Book, Exchange, Currency
 from urllib.request import urlopen, Request
 from json import load
-from .models import TaskHistory
 import time
 
-#celery = Celery('tasks', broker='redis://localhost:6379/0')
-
-@shared_task()
-def fetch_url(url, **kwargs):
-    """
-    A simple task that fetches the provided URL and returns a tuple
-    with the HTTP status code and binary response body (if any)
-    """
-
-    r = requests.get(url, **kwargs)
-    return (r.status_code, r.content)
-
-@shared_task()
-def echo(data):
-   """
-   A simplest task that just returns back the data it got.
-   """
-   return data
 
 @shared_task
 def negociecoins_orderbook():
@@ -31,16 +12,25 @@ def negociecoins_orderbook():
     neg_order_book = "https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook"
     req = Request(neg_order_book, headers=headers)
     response = urlopen(req)
-    orderbook = load(response)
-    unix = time.time()
-    insert_negociecoins_db(unix, orderbook)
+    if(response.getcode()==200):
+        orderbook = load(response)
+        unix = time.time()
+        exchange = Exchange.objects.get(code="NEG")
+        base = Currency.objects.get(code="BTC")
+        quote = Currency.objects.get(code="BRL")
+        exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
+        print("Exchange: " + str(exchange) + ". " + str(base) + "/" + str(quote) + ". " + str(exchange_pair))
+        insert_negociecoins_db(exchange, unix, orderbook)
+
 
 @shared_task
-def insert_negociecoins_db(unix, orderbook):
-    bid = orderbook['bid']
-    ask = orderbook['ask']
-    print(bid)
-    print(ask)
+def insert_negociecoins_db(exchange, unix, orderbook):
+    Exchange_Pair.objects.filter()
+    bidbook = orderbook['bid']
+    askbook = orderbook['ask']
+    for bid in bidbook:
+        print(bid)
+
 
 @shared_task
 def api():
