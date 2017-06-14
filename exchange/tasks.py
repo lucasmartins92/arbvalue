@@ -8,8 +8,7 @@ import time
 #Check DB
 @shared_task
 def check_orderbook_db():
-    unix_now = time.time()
-    unix_old = unix_now - 10*60
+    unix_old = time.time()-10*60
     old_data = Order_Book.objects.filter(unix__lte=unix_old)
     print(str(old_data.count()))
 
@@ -57,5 +56,5 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
 
 @shared_task
 def api():
-    check_orderbook_db()
+    check_orderbook_db.delay()
     negociecoins_orderbook.delay()
