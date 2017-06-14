@@ -4,7 +4,8 @@ from urllib.request import urlopen, Request
 from json import load
 import time
 
-
+#================================================================================================
+#Negocie Coins
 @shared_task
 def negociecoins_orderbook():
     user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
@@ -20,8 +21,6 @@ def negociecoins_orderbook():
         quote = Currency.objects.get(code="BRL")
         exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
         insert_negociecoins_db(exchange_pair, unix, orderbook)
-
-
 @shared_task
 def insert_negociecoins_db(exchange_pair, unix, orderbook):
     Exchange_Pair.objects.filter()
@@ -41,10 +40,8 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
                                 volume=ask['quantity'],
                                 price=ask['price'])
         insert_ask.save()
-
+#================================================================================================
 
 @shared_task
 def api():
-    print("Api_beginning")
     negociecoins_orderbook.delay()
-    print("Api_end")
