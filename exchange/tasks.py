@@ -5,6 +5,10 @@ from json import load
 import time
 
 #================================================================================================
+#Check DB
+
+
+#================================================================================================
 #Negocie Coins
 @shared_task
 def negociecoins_orderbook():
@@ -44,4 +48,5 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
 
 @shared_task
 def api():
+    check_orderbook_db.delay()
     negociecoins_orderbook.delay()
