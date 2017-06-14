@@ -19,17 +19,28 @@ def negociecoins_orderbook():
         base = Currency.objects.get(code="BTC")
         quote = Currency.objects.get(code="BRL")
         exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
-        print("Exchange: " + str(exchange) + ". " + str(base) + "/" + str(quote) + ". " + str(exchange_pair))
-        insert_negociecoins_db(exchange, unix, orderbook)
+        insert_negociecoins_db(exchange_pair, unix, orderbook)
 
 
 @shared_task
-def insert_negociecoins_db(exchange, unix, orderbook):
+def insert_negociecoins_db(exchange_pair, unix, orderbook):
     Exchange_Pair.objects.filter()
     bidbook = orderbook['bid']
     askbook = orderbook['ask']
     for bid in bidbook:
-        print(bid)
+        insert_bid = Order_Book(exchange_pair=exchange_pair,
+                                unix=unix,
+                                type='bid',
+                                volume=bid['quantity'],
+                                price=bid['price'])
+        insert_bid.save()
+    for ask in askbook:
+        insert_ask = Order_Book(exchange_pair=exchange_pair,
+                                unix=unix,
+                                type='ask',
+                                volume=ask['quantity'],
+                                price=ask['price'])
+        insert_ask.save()
 
 
 @shared_task
