@@ -6,16 +6,16 @@ import time
 
 #================================================================================================
 #Check DB
+
 @shared_task
 def check_orderbook_db():
     unix_old = time.time()-10*60
     old_data = Order_Book.objects.filter(unix__lte=unix_old)
-    print(str(old_data.count()))
+    print("Quantidade de Dados Antigos: " + str(old_data.count()))
     old_data.delete()
 
 #================================================================================================
 #Negocie Coins
-
 
 @shared_task
 def negociecoins_orderbook():
@@ -38,20 +38,30 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
     Exchange_Pair.objects.filter()
     bidbook = orderbook['bid']
     askbook = orderbook['ask']
+    count = 1
     for bid in bidbook:
-        insert_bid = Order_Book(exchange_pair=exchange_pair,
-                                unix=unix,
-                                type='bid',
-                                volume=bid['quantity'],
-                                price=bid['price'])
-        insert_bid.save()
+        if count <= 5:
+            count += 1
+            insert_bid = Order_Book(exchange_pair=exchange_pair,
+                                    unix=unix,
+                                    type='bid',
+                                    volume=bid['quantity'],
+                                    price=bid['price'])
+            insert_bid.save()
+        else:
+            break
+    count = 1
     for ask in askbook:
-        insert_ask = Order_Book(exchange_pair=exchange_pair,
-                                unix=unix,
-                                type='ask',
-                                volume=ask['quantity'],
-                                price=ask['price'])
-        insert_ask.save()
+        if count <= 5:
+            count += 1
+            insert_ask = Order_Book(exchange_pair=exchange_pair,
+                                    unix=unix,
+                                    type='ask',
+                                    volume=ask['quantity'],
+                                    price=ask['price'])
+            insert_ask.save()
+        else:
+            break
 
 #================================================================================================
 
