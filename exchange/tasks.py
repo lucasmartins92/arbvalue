@@ -11,6 +11,7 @@ def check_orderbook_db():
     unix_old = time.time()-10*60
     old_data = Order_Book.objects.filter(unix__lte=unix_old)
     print(str(old_data.count()))
+    old_data.delete()
 
 #================================================================================================
 #Negocie Coins
