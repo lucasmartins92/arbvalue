@@ -57,5 +57,5 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
 
 @shared_task
 def api():
-    check_orderbook_db
+    check_orderbook_db()
     negociecoins_orderbook.delay()
