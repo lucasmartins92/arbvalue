@@ -25,7 +25,8 @@ def orderbook_api(url_api):
     req = Request(neg_order_book, headers=headers)
     response = urlopen(req)
     if(response.getcode()==200):
-        return load(response)
+        orderbook = load(response)
+        return load(orderbook)
 
 #================================================================================================
 #Negocie Coins
