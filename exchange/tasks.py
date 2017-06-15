@@ -15,27 +15,27 @@ def check_orderbook_db():
     old_data.delete()
 
 #================================================================================================
-#Negocie Coins
+#Orderbook
 
 @shared_task
-def negociecoins_orderbook():
+def orderbook_api(url_api):
     user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
     headers = {'User-Agent': user_agent, }
-    neg_order_book = "https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook"
+    neg_order_book = url_api
     req = Request(neg_order_book, headers=headers)
     response = urlopen(req)
     if(response.getcode()==200):
-        orderbook = load(response)
-        unix = time.time()
-        exchange = Exchange.objects.get(code="NEG")
-        base = Currency.objects.get(code="BTC")
-        quote = Currency.objects.get(code="BRL")
-        exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
-        insert_negociecoins_db(exchange_pair, unix, orderbook)
+        return load(response)
+
+#================================================================================================
+#Negocie Coins
 
 @shared_task
-def insert_negociecoins_db(exchange_pair, unix, orderbook):
-    Exchange_Pair.objects.filter()
+def negociecoins_orderbook(url_api, code, base, quote):
+    unix = time.time()
+    exchange = Exchange.objects.get(code=code)
+    orderbook = orderbook_api(url_api)
+    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
     bidbook = orderbook['bid']
     askbook = orderbook['ask']
     count = 1
@@ -67,24 +67,11 @@ def insert_negociecoins_db(exchange_pair, unix, orderbook):
 #FoxBit
 
 @shared_task
-def foxbit_orderbook():
-    user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-    headers = {'User-Agent': user_agent, }
-    orderbook = "https://api.blinktrade.com/api/v1/BRL/orderbook"
-    req = Request(orderbook, headers=headers)
-    response = urlopen(req)
-    if(response.getcode()==200):
-        orderbook = load(response)
-        unix = time.time()
-        exchange = Exchange.objects.get(code="FOX")
-        base = Currency.objects.get(code="BTC")
-        quote = Currency.objects.get(code="BRL")
-        exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
-        insert_foxbit_db(exchange_pair, unix, orderbook)
-
-@shared_task
-def insert_foxbit_db(exchange_pair, unix, orderbook):
-    Exchange_Pair.objects.filter()
+def foxbit_orderbook(url_api, code, base, quote):
+    unix = time.time()
+    exchange = Exchange.objects.get(code=code)
+    orderbook = orderbook_api(url_api)
+    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
     bidbook = orderbook['bids']
     askbook = orderbook['asks']
     count = 1
@@ -117,5 +104,11 @@ def insert_foxbit_db(exchange_pair, unix, orderbook):
 @shared_task
 def api():
     check_orderbook_db.delay()
-    negociecoins_orderbook.delay()
-    foxbit_orderbook.delay()
+    negociecoins_orderbook.delay("https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook",
+                                 "NEG",
+                                 "BTC",
+                                 "BRL")
+    foxbit_orderbook.delay("https://api.blinktrade.com/api/v1/BRL/orderbook",
+                           "FOX",
+                           "BTC,"
+                           "BRL")
