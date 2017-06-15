@@ -110,5 +110,5 @@ def api():
                                  "BRL")
     foxbit_orderbook.delay("https://api.blinktrade.com/api/v1/BRL/orderbook",
                            "FOX",
-                           "BTC,"
+                           "BTC",
                            "BRL")
