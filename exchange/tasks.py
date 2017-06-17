@@ -33,10 +33,12 @@ def orderbook_api(url_api):
 
 @shared_task
 def negociecoins_orderbook(url_api, code, base, quote):
+    btc_currency = Currency.objects.get(code=base)
+    brl_currency = Currency.objects.get(code=quote)
     unix = time.time()
     exchange = Exchange.objects.get(code=code)
     orderbook = orderbook_api(url_api)
-    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
+    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=btc_currency, quote=brl_currency)
     bidbook = orderbook['bid']
     askbook = orderbook['ask']
     count = 1
@@ -69,10 +71,12 @@ def negociecoins_orderbook(url_api, code, base, quote):
 
 @shared_task
 def foxbit_orderbook(url_api, code, base, quote):
+    btc_currency = Currency.objects.get(code=base)
+    brl_currency = Currency.objects.get(code=quote)
     unix = time.time()
     exchange = Exchange.objects.get(code=code)
     orderbook = orderbook_api(url_api)
-    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=base, quote=quote)
+    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=btc_currency, quote=brl_currency)
     bidbook = orderbook['bids']
     askbook = orderbook['asks']
     count = 1
@@ -105,13 +109,11 @@ def foxbit_orderbook(url_api, code, base, quote):
 @shared_task
 def api():
     check_orderbook_db.delay()
-    btc_currency = Currency.objects.get(code="BTC")
-    brl_currency = Currency.objects.get(code="BRL")
     negociecoins_orderbook.delay("https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook",
                                  "NEG",
-                                 btc_currency,
-                                 brl_currency)
+                                 "BTC",
+                                 "BRL")
     foxbit_orderbook.delay("https://api.blinktrade.com/api/v1/BRL/orderbook",
                            "FOX",
-                           btc_currency,
-                           brl_currency)
+                           "BTC",
+                           "BRL")
