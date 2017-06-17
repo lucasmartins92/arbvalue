@@ -105,11 +105,13 @@ def foxbit_orderbook(url_api, code, base, quote):
 @shared_task
 def api():
     check_orderbook_db.delay()
+    btc_currency = Currency.objects.get(code="BTC")
+    brl_currency = Currency.objects.get(code="BRL")
     negociecoins_orderbook.delay("https://broker.negociecoins.com.br/api/v3/BTCBRL/orderbook",
                                  "NEG",
-                                 "BTC",
-                                 "BRL")
+                                 btc_currency,
+                                 brl_currency)
     foxbit_orderbook.delay("https://api.blinktrade.com/api/v1/BRL/orderbook",
                            "FOX",
-                           "BTC",
-                           "BRL")
+                           btc_currency,
+                           brl_currency)
