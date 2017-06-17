@@ -26,7 +26,7 @@ def orderbook_api(url_api):
     response = urlopen(req)
     if(response.getcode()==200):
         orderbook = load(response)
-        return load(orderbook)
+        return orderbook
 
 #================================================================================================
 #Negocie Coins
