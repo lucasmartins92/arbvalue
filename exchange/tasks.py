@@ -105,6 +105,7 @@ def foxbit_orderbook(url_api, code, base, quote):
             break
 
 #================================================================================================
+#Mercado Bitcoin
 
 @shared_task
 def mercadobitcoin_orderbook(url_api, code, base, quote):
@@ -141,6 +142,48 @@ def mercadobitcoin_orderbook(url_api, code, base, quote):
         else:
             break
 
+#================================================================================================
+#Bitcoin To You
+
+@shared_task
+def bitcointoyou_orderbook(url_api, code, base, quote):
+    btc_currency = Currency.objects.get(code=base)
+    brl_currency = Currency.objects.get(code=quote)
+    unix = time.time()
+    exchange = Exchange.objects.get(code=code)
+    orderbook = orderbook_api(url_api)
+    exchange_pair = Exchange_Pair.objects.get(exchange=exchange, base=btc_currency, quote=brl_currency)
+    bidbook = orderbook['bids']
+    askbook = orderbook['asks']
+    count = 1
+    for bid in bidbook:
+        if count <= 5:
+            count += 1
+            insert_bid = Order_Book(exchange_pair=exchange_pair,
+                                    unix=unix,
+                                    type='bid',
+                                    volume=bid[1],
+                                    price=bid[0])
+            insert_bid.save()
+        else:
+            break
+    count = 1
+    for ask in askbook:
+        if count <= 5:
+            count += 1
+            insert_ask = Order_Book(exchange_pair=exchange_pair,
+                                    unix=unix,
+                                    type='ask',
+                                    volume=ask[1],
+                                    price=ask[0])
+            insert_ask.save()
+        else:
+            break
+
+
+#================================================================================================
+#Tasks
+
 @shared_task
 def api():
     check_orderbook_db.delay()
@@ -148,11 +191,23 @@ def api():
                                  "NEG",
                                  "BTC",
                                  "BRL")
+    negociecoins_orderbook.delay("https://broker.negociecoins.com.br/api/v3/LTCBRL/orderbook",
+                                 "NEG",
+                                 "LTC",
+                                 "BRL")
     foxbit_orderbook.delay("https://api.blinktrade.com/api/v1/BRL/orderbook",
                            "FOX",
                            "BTC",
                            "BRL")
     mercadobitcoin_orderbook.delay("https://www.mercadobitcoin.net/api/orderbook/",
                                    "MBT",
+                                   "BTC",
+                                   "BRL")
+    mercadobitcoin_orderbook.delay("https://www.mercadobitcoin.net/api/orderbook_litecoin/",
+                                   "MBT",
+                                   "LTC",
+                                   "BRL")
+    bitcointoyou_orderbook.delay("https://bitcointoyou.com/api/orderbook.aspx",
+                                   "B2U",
                                    "BTC",
                                    "BRL")

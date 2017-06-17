@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/exchange/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-201">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="122" column="62" lean-forward="true" selection-start-line="122" selection-start-column="62" selection-end-line="122" selection-end-column="62" />
+            <state relative-caret-position="125">
+              <caret line="201" column="43" lean-forward="false" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
               <folding>
                 <element signature="e#1014#1111#0" expanded="false" />
               </folding>
@@ -414,13 +414,6 @@
       <option name="presentableId" value="Default" />
       <updated>1496437586515</updated>
     </task>
-    <task id="LOCAL-00016" summary="Requiriments atualizado (retirado os não utilizados)">
-      <created>1497206213710</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1497206213710</updated>
-    </task>
     <task id="LOCAL-00017" summary="Requiriments atualizado (retirado os não utilizados)">
       <created>1497206931082</created>
       <option name="number" value="00017" />
@@ -757,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497663257600</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Update">
+      <created>1497668259687</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1497668259687</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1078,7 +1078,7 @@
     <entry file="file://$PROJECT_DIR$/exchange/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1093,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="122" column="62" lean-forward="true" selection-start-line="122" selection-start-column="62" selection-end-line="122" selection-end-column="62" />
+        <state relative-caret-position="125">
+          <caret line="201" column="43" lean-forward="false" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
           <folding>
             <element signature="e#1014#1111#0" expanded="false" />
           </folding>
