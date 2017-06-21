@@ -30,11 +30,25 @@
 <h3>Negociable Pairs:</h3>
 <ul>
     {% for exchange_pair in exchange.exchange_pair_set.all %}
-    <li>{{exchange_pair.base}}/{{exchange_pair.quote}}</li>
+    <li>
+        {{exchange_pair.base}}/{{exchange_pair.quote}}
+        <table style="width:20%">
+        <tr>
+            <th>Tipo</th>
+            <th>Preço</th>
+            <th>Volume</th>
+        </tr>
+        {% for exchange_orderbook in exchange_pair.order_book_set.all %}
+        <tr>
+            <td>{{exchange_orderbook.type}}</td>
+            <td>{{exchange_orderbook.price.normalize}}</td>
+            <td>{{exchange_orderbook.volume.normalize}}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </li>
     {% endfor %}
 </ul>
 </div>
-
-
 </body>
 </html>
