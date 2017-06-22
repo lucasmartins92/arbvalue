@@ -22,7 +22,7 @@ def filter_order_by(queryset, order):
     return filtered.order_by(order)
 
 @register.filter
-def timestamp(timestamp):
+def timestamp(timestamp_br):
     try:
         ts = datetime.fromtimestamp(timestamp)
     except ValueError:
