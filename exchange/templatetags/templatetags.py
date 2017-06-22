@@ -1,6 +1,8 @@
 from django.template import Library
 from django.db.models import Max
-import time
+from pytz import timezone, UTC
+from datetime import datetime
+
 
 register = Library()
 
@@ -22,7 +24,7 @@ def filter_order_by(queryset, order):
 @register.filter
 def timestamp(timestamp):
     try:
-        ts = float(timestamp)
+        ts = datetime.fromtimestamp(timestamp)
     except ValueError:
         return None
-    return time.strftime("%H:%M:%S", time.gmtime(ts))
+    return ts.replace(tzinfo=UTC).astimezone(timezone('America/Sao_Paulo')).strftime("%H:%M:%S")
