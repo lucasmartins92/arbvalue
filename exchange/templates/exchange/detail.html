@@ -38,12 +38,14 @@
             <th>Tipo</th>
             <th>Preço</th>
             <th>Volume</th>
+            <th>Data</th>
         </tr>
         {% for exchange_orderbook in exchange_pair.order_book_set.all|filter_order_by:'-price' %}
         <tr>
             <td>{{exchange_orderbook.type}}</td>
             <td>{{exchange_orderbook.price.normalize}}</td>
             <td>{{exchange_orderbook.volume.normalize}}</td>
+            <td>{{exchange_orderbook.unix.normalize|timestamp}}</td>
         </tr>
         {% endfor %}
         </table>

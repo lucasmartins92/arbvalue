@@ -1,5 +1,6 @@
 from django.template import Library
-from django.db.models import Avg, Max, Min
+from django.db.models import Max
+import time
 
 register = Library()
 
@@ -17,3 +18,11 @@ def filter_order_by(queryset, order):
     max_unix = queryset.aggregate(Max('unix'))
     filtered = queryset.filter(unix=max_unix['unix__max'])
     return filtered.order_by(order)
+
+@register.filter
+def timestamp(timestamp):
+    try:
+        ts = float(timestamp)
+    except ValueError:
+        return None
+    return time.strftime("%H:%M:%S", time.gmtime(ts))
