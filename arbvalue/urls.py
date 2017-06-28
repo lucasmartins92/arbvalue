@@ -17,16 +17,23 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from exchange import views
 from rest_framework import routers
+from django.conf.urls.static import static
+from django.conf import settings
 
+'''
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
-
+'''
 
 urlpatterns = [
-    #url(r'^$', views.index, name='index'),
-    url(r'^', include(router.urls)),
+    url(r'^$', views.index, name='index'),
+    #url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
     url(r'^exchange/', include('exchange.urls')),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    #url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
