@@ -135,13 +135,6 @@ AWS_S3_SECURE_URLS = False
 AWS_S3_CALLING_FORMAT = 'boto.s3.connection.OrdinaryCallingFormat'
 AWS_S3_HOST = 's3.us-east-2.amazonaws.com'
 AWS_S3_CUSTOM_DOMAIN = AWS_STORAGE_BUCKET_NAME
-'''
-S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
-MEDIA_URL = AWS_S3_HOST + '/media/'
-STATIC_URL = S3_URL + '/static/'
-STATICFILES_STORAGE = DEFAULT_FILE_STORAGE
-'''
-
 S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 STATIC_DIRECTORY = '/static/'
 MEDIA_DIRECTORY = '/media/'
