@@ -1,6 +1,7 @@
 amqp==1.4.9
 anyjson==0.3.3
 billiard==3.3.0.23
+boto==2.45.0
 celery==3.1.25
 cffi==1.10.0
 colorama==0.3.9
