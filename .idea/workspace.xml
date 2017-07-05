@@ -21,8 +21,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -540,13 +540,6 @@
       <option name="presentableId" value="Default" />
       <updated>1496437586515</updated>
     </task>
-    <task id="LOCAL-00038" summary="Honcho configurado">
-      <created>1497313961794</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1497313961794</updated>
-    </task>
     <task id="LOCAL-00039" summary="Honcho configurado">
       <created>1497314365801</created>
       <option name="number" value="00039" />
@@ -883,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499272211736</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="allowed hosts changed">
+      <created>1499272768228</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1499272768228</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -973,7 +973,8 @@
     <MESSAGE value="Alteração para bootstrap de acordo com tutorial:&#10;https://www.youtube.com/watch?v=DZTnTK4DVOU" />
     <MESSAGE value="Alteração para bootstrap de acordo com tutorial:&#10;https://www.youtube.com/watch?v=DZTnTK4DVOU&#10;2" />
     <MESSAGE value="Alteração final para Layout com css, js e template pronto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração final para Layout com css, js e template pronto" />
+    <MESSAGE value="allowed hosts changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="allowed hosts changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1296,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
