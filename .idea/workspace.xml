@@ -2,292 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/bg_panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/box_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/contact_form_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/fancy_heading_hr_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_award.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_1-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_2-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_3-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_4-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_5-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_client_6-145x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_columnbg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_footerbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_logo_footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_slider_bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_slider_slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_testimonials1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_testimonials2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_testimonials3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_testimonials4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/home_loans2_testimonials5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/loans2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/menu-plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/recent_comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/stripes/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/stripes/stripes_10_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/stripes/stripes_3_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/stripes/stripes_5_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/timeline_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/top_bar_right_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/tp-leftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/tp-rightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/images/videomask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/fonts/mfn-icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/fonts/mfn-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/fonts/mfn-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/bg_widget_header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/bg_widget_header_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/jplayer.blue.monday.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/jplayer.blue.monday.seeking.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/jplayer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/bg_panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/blog_masonry_tile_gradient.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/box_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/box_shadow_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/fancy_heading_hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/fancy_heading_hr_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/icons/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/icons/list_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/icons/list_idea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/icons/list_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_rounded/contentPattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_rounded/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_square/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/dark_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/default_thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/sprite_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/sprite_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/sprite_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/default/sprite_y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/contentPatternBottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/contentPatternLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/contentPatternRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/contentPatternTop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/default_thumbnail.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/facebook/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_rounded/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_rounded/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_rounded/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_rounded/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_square/btnNext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_square/btnPrevious.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/prettyPhoto/light_square/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/progressbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/recent_comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/stripes_10_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/stripes_10_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/stripes_3_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/stripes_5_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/stripes/textline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/timeline_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/timeline_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/images/timeline_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/coloredbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/gridtile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/gridtile_3x3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/gridtile_3x3_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/gridtile_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/assets/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/css/closedhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/css/openhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/fonts/revicons/revicons90c6.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/fonts/revicons/revicons90c6.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/fonts/revicons/revicons90c6.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/dist/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/external/sizzle/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/var/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/DOMEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/nodeName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/ready-no-deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/readyException.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/stripAndCollapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/adjustCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/showHide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/css/var/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/data/var/acceptData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/data/var/dataPriv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/data/var/dataUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/deferred/exceptionHook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event/focusin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/event/trigger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/buildFragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/var/rtagName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/manipulation/wrapMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/traversing/var/dir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/traversing/var/siblings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/ObjectFunctionString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/documentElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/fnToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/getProto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/rcssNum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/rnothtmlwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/PATENTS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-dom-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-dom-server.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-dom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-with-addons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react-with-addons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bower_components/react/react.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/Version/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/css/loans2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/content/loans2/css/structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/css/fonts/mfn-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/animations/animations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/jquery-2.1.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/jquery.jplayer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/jquery.plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/mfn.menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/js/translate3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/css/settings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/fonts/revicons/revicons90c6.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/extensions/revolution.extension.video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/our_static/plugins/rs-plugin/js/jquery.themepunch.tools.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arbvalue/settings.py" afterPath="$PROJECT_DIR$/arbvalue/settings.py" />
     </list>
@@ -307,8 +21,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -800,13 +514,6 @@
       <option name="presentableId" value="Default" />
       <updated>1496437586515</updated>
     </task>
-    <task id="LOCAL-00033" summary="Honcho configurado">
-      <created>1497237355552</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1497237355552</updated>
-    </task>
     <task id="LOCAL-00034" summary="Honcho configurado">
       <created>1497237748076</created>
       <option name="number" value="00034" />
@@ -1143,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499230629937</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Alteração final para Layout com css, js e template pronto">
+      <created>1499231416403</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1499231416403</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1162,6 +876,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936978" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1170,7 +885,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2116528" sideWeight="0.487055" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21763754" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21763754" sideWeight="0.49550563" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32699168" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1593,8 +1308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
