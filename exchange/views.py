@@ -1,9 +1,13 @@
 from django.shortcuts import render, get_object_or_404
 from exchange.models import Exchange, Exchange_Pair, Order_Book
 
+
+def loan(request):
+    return render(request, 'loan.html')
+
 def index(request):
     all_exchanges = Exchange.objects.all()
-    return render(request, 'base.html', {'all_exchanges': all_exchanges})
+    return render(request, 'home.html', {'all_exchanges': all_exchanges})
 
 def detail(request, exchange_id):
     exchange = get_object_or_404(Exchange, pk=exchange_id)

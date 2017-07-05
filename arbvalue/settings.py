@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'djcelery',
     'exchange',
+    'storages',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -83,7 +84,8 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-STATIC_URL = '/static/'
+#STATIC_URL = '/static/' #comentado para AWS S3 DJANGO-STORAGES
+#MEDIA_URL = '/media/' #comentado para AWS S3 DJANGO-STORAGES
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "out_static", "static_root")
 
@@ -91,10 +93,61 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static", "our_static"),
 )
 
-MEDIA_URL = '/media/'
+
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "out_static", "media_root")
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+#STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage' #comentado para AWS S3 DJANGO-STORAGES
+
+AWS_HEADERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'Cache-Control': 'max-age=94608000',
+    }
+'''
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+AWS_STORAGE_BUCKET_NAME = 'arbvalue'
+AWS_ACCESS_KEY_ID = 'AKIAJQMUXGQSOMOSPTWA'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_S3_HOST = 's3.us-east-2.amazonaws.com'
+
+#AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+#STATIC_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
+
+STATICFILES_LOCATION = 'static'
+STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
+
+S3_URL = 'http://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+STATIC_DIRECTORY = '/static/'
+MEDIA_DIRECTORY = '/media/'
+STATIC_URL = S3_URL + STATIC_DIRECTORY
+MEDIA_URL = S3_URL + MEDIA_DIRECTORY
+'''
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+AWS_ACCESS_KEY_ID = 'AKIAJQMUXGQSOMOSPTWA'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'arbvalue'
+AWS_AUTO_CREATE_BUCKET = False
+AWS_QUERYSTRING_AUTH = False
+AWS_S3_SECURE_URLS = False
+AWS_S3_CALLING_FORMAT = 'boto.s3.connection.OrdinaryCallingFormat'
+AWS_S3_HOST = 's3.us-east-2.amazonaws.com'
+AWS_S3_CUSTOM_DOMAIN = AWS_STORAGE_BUCKET_NAME
+'''
+S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+MEDIA_URL = AWS_S3_HOST + '/media/'
+STATIC_URL = S3_URL + '/static/'
+STATICFILES_STORAGE = DEFAULT_FILE_STORAGE
+'''
+
+S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+STATIC_DIRECTORY = '/static/'
+MEDIA_DIRECTORY = '/media/'
+STATIC_URL = S3_URL + STATIC_DIRECTORY
+MEDIA_URL = S3_URL + MEDIA_DIRECTORY
+
 
 import dj_database_url
 import djcelery

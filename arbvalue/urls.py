@@ -28,10 +28,10 @@ router.register(r'groups', views.GroupViewSet)
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    #url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
     url(r'^exchange/', include('exchange.urls')),
-    #url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^loan/', views.loan, name='loan')
+
 ]
 
 if settings.DEBUG:
