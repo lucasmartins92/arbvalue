@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -73,6 +73,7 @@
       <find>src</find>
       <find>whiten</find>
       <find>white</find>
+      <find>staticfiles_s</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\lucas\PycharmProjects\arbvalue</dir>
@@ -514,13 +515,6 @@
       <option name="presentableId" value="Default" />
       <updated>1496437586515</updated>
     </task>
-    <task id="LOCAL-00034" summary="Honcho configurado">
-      <created>1497237748076</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1497237748076</updated>
-    </task>
     <task id="LOCAL-00035" summary="Honcho configurado">
       <created>1497311999694</created>
       <option name="number" value="00035" />
@@ -857,7 +851,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499231416403</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Alteração final para Layout com css, js e template pronto">
+      <created>1499231644677</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1499231644677</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1309,7 +1310,7 @@
     <entry file="file://$PROJECT_DIR$/arbvalue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>

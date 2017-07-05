@@ -5,7 +5,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@_q8nxh#vo*bwhdqcm*$p0a&2@97flxed=x&nu4yld1ongspt)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['arbvalue.herokuapp.com', 'localhost', '127.0.0.1']
 
@@ -126,6 +126,7 @@ MEDIA_URL = S3_URL + MEDIA_DIRECTORY
 '''
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+STATICFILES_STORAGE = DEFAULT_FILE_STORAGE
 AWS_ACCESS_KEY_ID = 'AKIAJQMUXGQSOMOSPTWA'
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'arbvalue'
