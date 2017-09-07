@@ -159,9 +159,9 @@ CELERY_ACCEPT_CONTENT = ["json", "msgpack"]
 CELERY_IMPORTS = ('exchange.tasks', )
 
 CELERYBEAT_SCHEDULE = {
-    'api-5sec': {
+    'api-1min': {
         'task': 'exchange.tasks.api',
-        'schedule': timedelta(seconds=5),
+        'schedule': timedelta(seconds=60),
         'args': ()
     },
 }
