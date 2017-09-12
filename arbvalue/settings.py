@@ -157,6 +157,7 @@ djcelery.setup_loader()
 CELERY_TASK_SERIALIZER = "json"
 CELERY_ACCEPT_CONTENT = ["json", "msgpack"]
 CELERY_IMPORTS = ('exchange.tasks', )
+CELERY_ALWAYS_EAGER = True
 
 CELERYBEAT_SCHEDULE = {
     'api-1min': {

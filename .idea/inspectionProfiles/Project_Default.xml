@@ -2,6 +2,7 @@
   <profile version="1.0" is_locked="true">
     <option name="myName" value="Project Default" />
     <inspection_tool class="Annotator" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="AnonymousGroup" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="BuildoutUnresolvedPartInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CheckDtdRefs" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="CheckEmptyScriptTag" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -10,8 +11,10 @@
     <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="CommandLineInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DuplicateAlternationBranch" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="EmptyAlternationBranch" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EscapedMetaCharacter" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="HtmlExtraClosingTag" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlMissingClosingTag" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="HtmlUnknownAnchorTarget" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
@@ -44,6 +47,7 @@
     <inspection_tool class="JsonStandardCompliance" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="LongLine" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LossyEncoding" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OctalEscape" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ProblematicWhitespace" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyAbstractClassInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -94,14 +98,16 @@
     <inspection_tool class="PyMissingConstructorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyMissingTypeHintsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyNamedTupleInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyNestedDecoratorsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNonAsciiCharInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNoneFunctionAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyOldStyleClassesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyOverloadsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="50">
+          <list size="60">
             <item index="0" class="java.lang.String" itemvalue="scikit-image" />
             <item index="1" class="java.lang.String" itemvalue="Bottleneck" />
             <item index="2" class="java.lang.String" itemvalue="numba" />
@@ -152,6 +158,16 @@
             <item index="47" class="java.lang.String" itemvalue="stevedore" />
             <item index="48" class="java.lang.String" itemvalue="virtualenvwrapper" />
             <item index="49" class="java.lang.String" itemvalue="django-storages" />
+            <item index="50" class="java.lang.String" itemvalue="celery" />
+            <item index="51" class="java.lang.String" itemvalue="amqp" />
+            <item index="52" class="java.lang.String" itemvalue="boto" />
+            <item index="53" class="java.lang.String" itemvalue="anyjson" />
+            <item index="54" class="java.lang.String" itemvalue="kombu" />
+            <item index="55" class="java.lang.String" itemvalue="pycparser" />
+            <item index="56" class="java.lang.String" itemvalue="django-celery" />
+            <item index="57" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="58" class="java.lang.String" itemvalue="billiard" />
+            <item index="59" class="java.lang.String" itemvalue="redis" />
           </list>
         </value>
       </option>
@@ -208,6 +224,7 @@
     <inspection_tool class="TodoComment" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnresolvedReference" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="UnusedDefine" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlDefaultAttributeValue" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="XmlDuplicatedId" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="XmlHighlighting" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="XmlInvalidId" enabled="true" level="ERROR" enabled_by_default="true" />
