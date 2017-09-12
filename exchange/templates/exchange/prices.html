@@ -1,0 +1,25 @@
+{% load templatetags %}
+<ul>
+    <h3>Negociable Pairs</h3>
+    <table>
+        {% for exchange_pair in exchange.exchange_pair_set.all %}
+        {{exchange_pair.base}}/{{exchange_pair.quote}}
+        <table id="table_pair" class="table table-bordered">
+            <tr>
+                <th>Tipo</th>
+                <th>Preço</th>
+                <th>Volume</th>
+                <th>Data</th>
+            </tr>
+            {% for exchange_orderbook in exchange_pair.order_book_set.all|filter_order_by:'-price' %}
+            <tr>
+                <td>{{exchange_orderbook.type}}</td>
+                <td>{{exchange_orderbook.price.normalize}}</td>
+                <td>{{exchange_orderbook.volume.normalize}}</td>
+                <td>{{exchange_orderbook.unix.normalize|timestamp}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </table>
+    {% endfor %}
+</ul>

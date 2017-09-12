@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc77ec9-9395-4fca-b6c2-6171569b9858" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arbvalue/settings.py" afterPath="$PROJECT_DIR$/arbvalue/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange/templates/exchange/detail.html" afterPath="$PROJECT_DIR$/exchange/templates/exchange/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange/urls.py" afterPath="$PROJECT_DIR$/exchange/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange/views.py" afterPath="$PROJECT_DIR$/exchange/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/head_css.html" afterPath="$PROJECT_DIR$/templates/head_css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/javascript.html" afterPath="$PROJECT_DIR$/templates/javascript.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange/templates/exchange/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="147" column="31" lean-forward="true" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -65,7 +59,6 @@
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -102,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loans2.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loans2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/our_static/content/loans2/css/loans2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="1188" column="1" lean-forward="true" selection-start-line="1188" selection-start-column="1" selection-end-line="1188" selection-end-column="1" />
+            <state relative-caret-position="122">
+              <caret line="1219" column="20" lean-forward="false" selection-start-line="1219" selection-start-column="20" selection-end-line="1219" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -157,6 +150,7 @@
       <find>home</find>
       <find>hover</find>
       <find>hov</find>
+      <find>http</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\lucas\PycharmProjects\arbvalue</dir>
@@ -512,13 +506,6 @@
       <option name="presentableId" value="Default" />
       <updated>1496437586515</updated>
     </task>
-    <task id="LOCAL-00046" summary="Honcho configurado">
-      <created>1497411763595</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1497411763595</updated>
-    </task>
     <task id="LOCAL-00047" summary="Honcho configurado">
       <created>1497411913643</created>
       <option name="number" value="00047" />
@@ -855,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504749451924</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Tabela dinâmica. Entre outras coisas">
+      <created>1505182099550</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1505182099550</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -964,7 +958,8 @@
     <MESSAGE value="alterações feitas, realizando update &quot;final&quot; com staticfiles_storage comentado" />
     <MESSAGE value="debug = true" />
     <MESSAGE value="Loan.html: JS antes de CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loan.html: JS antes de CSS" />
+    <MESSAGE value="Tabela dinâmica. Entre outras coisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabela dinâmica. Entre outras coisas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,10 +1289,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/our_static/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/our_static/content/loans2/css/loans2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1219" column="20" lean-forward="false" selection-start-line="1219" selection-start-column="20" selection-end-line="1219" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exchange/templates/exchange/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="147" column="31" lean-forward="true" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1311,25 +1322,8 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/our_static/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/our_static/content/loans2/css/loans2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="1188" column="1" lean-forward="true" selection-start-line="1188" selection-start-column="1" selection-end-line="1188" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
